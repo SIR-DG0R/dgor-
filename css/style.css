@@ -1,0 +1,471 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: metropolis;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+}
+
+
+
+#hero-section{
+	background-color: #1ABC9C;
+	width: 100vw;
+	height: 100vh;
+}
+
+.nav-bar{
+	background-color: #2C3E50;
+	height: 80px;
+	border-top: 2px solid red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+
+}
+
+.allawance{
+	height: 100px;
+	background-color: red;
+}
+
+.allawance h1{
+	font-family: cursive; 
+	text-align: center;
+	font-size: 13px;
+	font-weight: bolder;
+
+}
+.nav-bar-logo > a{
+	text-decoration: none;
+	color: red;
+	margin-left: 120px;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.nav-bar-logo > a > sup{
+	color: chocolate;
+}
+
+.nav-bar-list {
+	margin-right: 120px;
+		
+}
+
+.nav-bar-list a{
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.circle{
+	background-color: #2C3E50;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#hero-section .circle img{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.hero .dgor h1{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	margin-top: -50px;
+	
+}
+
+.dgor svg{
+	width: 26px;
+	height: 26px;
+}
+
+.star-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 13px;
+
+}
+
+.star-container > .first-hr, .second-hr{
+	height: 3px;
+	width: 100px;
+	background-color :#e7e8e9;
+	margin: 12px;
+}
+
+.hero p{
+	text-align: center;
+	margin-top: 23px;
+	color: white;
+	font-size: 18px;
+}
+
+
+
+.main-section > #first-page{
+	width: 100vw;
+	height: 62em;
+	background-color: white;
+}
+
+.portfolio{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 38px;
+	color: #2C3E50;
+}
+
+.main-section > .first-page > .portfolio-star-container svg{
+	width: 26px;
+	height: 26px;
+}
+
+.portfolio-star-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 13px;
+
+}
+
+.portfolio-star-container > .portfolio-first-hr, .portfolio-second-hr{
+	height: 3px;
+	width: 100px;
+	background-color :#2C3E50;
+	margin: 12px;
+}
+
+
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 60px;
+	margin-top: -20px;
+}
+
+.box{
+	width: 310px;
+	height: 210px;
+	margin-top: 40px;
+	border-radius: 5px;
+	margin-right: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container .one{
+	background-color: #BA4C63;
+}
+
+.container .one .content{
+	background-color: #45B39C;
+}
+
+.container .two{
+	background-color: #1FA4B6;
+}
+
+.container .two .content{
+	background-color: #E05B49;
+}
+
+.container .three{
+	background-color: #130F0F;
+}
+
+.container .three .content{
+	background-color: #ECF0F0;
+}
+
+.container .four{
+	background-color: #1D83C1;
+}
+
+.container .four .content{
+	background-color: #E27C3E;
+}
+
+.container .five{
+	background-color: #1037B5;
+}
+
+.container .five .content{
+	background-color: #EFC84A;
+}
+
+.container .six{
+	background-color: #CCB2A3;
+}
+
+.container .six .content{
+	background-color: #334D5C;
+}
+
+.content{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+}
+
+.container .box .content img{
+	width: 100px;
+	height: 100px;
+}
+
+/*/*place images at the center	*/
+.container .box .content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+#second-page{
+	width: 100vw;
+	height: 500px;
+	background-color: #1ABC9C;
+}
+
+h1{
+	text-align: center;
+	font-size: 43px;
+	color: white;
+	padding-top: 80px;
+}
+
+.about-section svg{
+	width: 26px;
+	height: 26px;
+}
+
+.about-star-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+.about-star-container > .about-first-hr, .about-second-hr{
+	height: 3px;
+	width: 100px;
+	background-color: #e7e8e9;
+	margin: 12px;
+}
+
+
+
+
+
+
+.para{
+	display: flex;
+	margin: auto;
+	width: 800px;
+	height: 120px;
+	line-height: 2em;
+	margin-top: 25px;
+	color: white;
+}
+
+
+p{
+	text-align: initial;
+	font-size: 16px;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	margin-top: -65px;
+	
+}
+
+
+button{
+	width: 180px;
+	height: 50px;
+	background-color: #1ABC9C;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	margin-top: 70px;
+
+}
+
+button:hover{
+	background-color: white;
+	color: black;
+}
+
+#third-page{
+	width: 100vw;
+	height: 62em;
+	background-color: white;
+}
+
+.contact{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 15px;
+	color: #2C3E50;
+}
+
+.contact-star-container svg{
+	width: 26px;
+	height: 26px;
+}
+
+.contact-star-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 13px;
+
+}
+
+.contact-star-container > .contact-first-hr, .contact-second-hr{
+	height: 4px;
+	width: 100px;
+	background-color :#2C3E50;
+	margin: 12px;
+}
+
+
+.form-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.form-section form input{
+    color: #6C7592;
+    width: 700px;
+    height: 40px;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    background-color: white;
+}
+
+textarea{
+	 border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    background-color: white;
+}
+
+.form-section form button{
+    background-color: #6AD3BF;
+    border: none;
+    color: white;
+    width: 80px;
+    border-radius: 6px;
+    margin-top: -30px;
+}
+
+
+
+
+.footer-section{
+	width: 100vw;
+	height: 25em;
+	background-color: #2C3E50;
+}
+
+.footer-container{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.location{
+	color: white;
+	font-size: 20px;
+}
+.location-para{
+	width: 250px;
+	height: 20px;
+	text-align: center;
+	line-height: 1.5em;
+	color: white;
+	margin-top: 25px;
+	word-spacing: 1px;
+	
+}
+.aroud-the-web{
+	color: white;
+	font-size: 20px;
+}
+
+.h1-and-link a img{
+	margin-top: 25px;
+	text-decoration: none;
+}
+
+.about-freelancing{
+	color: white;
+	font-size: 20px;
+
+}
+
+.Freelancer-para{
+	width: 300px;
+	height: 20px;
+	text-align: center;
+	line-height: 1.5em;
+	color: white;
+	margin-top: 25px;
+}
+
+.Freelancer-para a{
+	color: #1ABC9C;
+}
+
+.h1-and-link a img{
+	width: 50px;
+	height: 50px;
+}
+
+
+.conclusion-part{
+	width: 100vw;
+	height: 65px;
+	background-color: #1A252F;
+	margin-top: 90px;
+}
+
+.conclusion-part p{
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 23px;
+	
+}

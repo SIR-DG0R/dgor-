@@ -1,0 +1,112 @@
+.nav-bar-list a:hover{
+	color: aquamarine;
+	cursor: pointer;
+    background-color: transparent;
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+}
+
+
+.hero .dgor h1:hover{
+	cursor: pointer;
+    background-color: transparent;
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+}
+
+.nav-bar-logo a:hover{
+	color: aquamarine;	
+}
+
+.nav-bar-logo > a > sup{
+    animation: color-switch 1s linear 0.3s infinite;
+}
+
+@keyframes color-switch {
+    0%{
+        color: cornflowerblue;
+    }
+
+    20%{
+        color: crimson;
+    }
+
+    60%{
+        color: coral;
+    }
+
+    80%{
+        color: darkturquoise;
+    }
+
+    100%{
+        color: greenyellow;
+    }
+}
+
+.allawance h1{
+    animation: color-switch 10s linear 0.3s infinite;
+}
+
+@keyframes color-switch {
+    0%{
+        color: cornflowerblue;
+    }
+
+    20%{
+        color: crimson;
+    }
+
+    60%{
+        color: coral;
+    }
+
+    80%{
+        color: darkturquoise;
+    }
+
+    100%{
+        color: greenyellow;
+    }
+}
+
+
+.circle:hover{
+	color: aquamarine;
+	cursor: pointer;
+    background-color: transparent;
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+}
+
+.hero .dgor p:hover{
+	color: aquamarine;
+	cursor: pointer;
+    background-color: transparent;
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+}
+
+.star-container:hover{
+	color: aquamarine;
+	cursor: pointer;
+    background-color: transparent;
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+}
+
+.portfolio:hover{
+    color: aquamarine;
+    cursor: pointer;
+    background-color: green;
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+}
+
+.container .box:hover{
+    color: aquamarine;
+    cursor: pointer;
+/*    background-color: transparent;*/
+    color: aqua;
+    box-shadow: 0 0 10px aquamarine, 0 0 40px aquamarine, 0 0 60px aquamarine;
+}
